@@ -247,14 +247,14 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`OVO : `087838271310 `A/N PUSPA PELANGI` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
+	await typew.edit("`OVO : `081241122973 `A/N INDRA ARDIANSYAH` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.dana(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`DANA : `082399800748 `A/N MHD FAUZI LBS` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
+	await typew.edit("`DANA : `081241122973 `A/N KELFIN RAMDIN` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.dana2(?: |$)(.*)')
