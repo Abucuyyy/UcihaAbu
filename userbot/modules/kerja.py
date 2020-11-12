@@ -227,11 +227,11 @@ async def typewriter(typew):
 
 
 # Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.tsel(?: |$)(.*)')
+@register(outgoing=True, pattern='^.dana4(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`TELKOMSEL : `082247870713 `A/N -` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#JefanyaBot](t.me/JejakCheat)")
+	await typew.edit("`DANA : `081236779914 `A/N SYARIF AL HUDA` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamiKazeBot](t.me/Abucuyy)")
 
 
 # Create by myself @JejakCheat
@@ -254,7 +254,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`DANA : `081241122973 `A/N KELFIN RAMDIN` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
+	await typew.edit("`DANA : `082399800748 `A/N MHD FAUZI LBS` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#NamikazeBot](t.me/Abucuyy)")
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.dana2(?: |$)(.*)')
