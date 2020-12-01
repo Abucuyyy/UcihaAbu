@@ -56,7 +56,7 @@ async def typewriter(typew):
 	await typew.edit("UNTUK DI INGAT SAJA\nBUAT YANG BLM TAU BERAPA LAMA PROSES UNREDFLAG ."
 f"\n\nBIASANYA PALING CEPAT ADALAH 1 MALAM DAN PALING LAMA ADALAH 1 - 3 HARI\nTHANKS BOSQU")
 	
-@register(outgoing=True, pattern='^.1(?: |$)(.*)')
+@register(outgoing=True, pattern='^(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
@@ -64,7 +64,7 @@ async def typewriter(typew):
 			 f"Dan request tampilan yang ingin anda gunakan\n"
 			 f"List Tampilan : [Klik Disini](https://jefanya.com)")
 	
-@register(outgoing=True, pattern='^.2(?: |$)(.*)')
+@register(outgoing=True, pattern='^(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
@@ -72,7 +72,7 @@ async def typewriter(typew):
 	
 
 	
-@register(outgoing=True, pattern='^.3(?: |$)(.*)')
+@register(outgoing=True, pattern='^(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
